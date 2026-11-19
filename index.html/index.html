@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para você ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <main>
+        <section id="intro">
+            <p>preparei uma coisa pra você...</p>
+            <button id="startButton">começar</button>
+        </section>
+
+        <section id="experience" class="hidden">
+            <canvas id="roseCanvas"></canvas>
+
+            <div id="message" class="hidden">
+                <p>Meu amor por você...</p>
+                <h1>Vai do infinito ao além.</h1>
+                <p class="subtitle">sou apaixonado por você.</p>
+            </div>
+        </section>
+    </main>
+
+    <audio id="music" src="assets/angel.mp3" loop></audio>
+
+    <button id="musicButton" class="hidden" aria-label="Pausar música">
+        ♫
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
